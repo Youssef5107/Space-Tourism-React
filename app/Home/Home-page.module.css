@@ -1,6 +1,7 @@
 .pageArea{
     display: flex;
     align-items: center;
+    padding: 100px 100px 0px 100px;
 }
 
 .pageIntroduction{
