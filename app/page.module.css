@@ -1,0 +1,23 @@
+.headerArea {
+    display: flex;
+    align-items: center;
+    padding: 60px;
+}
+
+
+.headerOptionBtnsArea {
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    width: 700px;
+    max-width: 100%;
+}
+
+.headerOptionBtn {
+    color: white;
+}
+
+.optionNumber {
+    font-weight: bold;
+    margin: 0px 5px 0px 30px;
+}
