@@ -1,0 +1,36 @@
+.pageArea{
+    display: flex;
+    align-items: center;
+}
+
+.pageIntroduction{
+     color:#D0D6F9;
+}
+
+.pageTitle{
+    color: white;
+    font-size: 40px;
+}
+
+.pageContent{
+    color:#D0D6F9;
+    max-width:400px;
+    width: 100%;
+}
+
+.exploreArea{
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+}
+
+.explore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    font-size: 40px;
+}

@@ -14,7 +14,7 @@ function Header() {
                     <div className={styles.headerOptionBtn}><span className={styles.optionNumber}>02</span>CREW</div>
                     <div className={styles.headerOptionBtn}><span className={styles.optionNumber}>03</span>TECHNOLOGY</div>
                 </div>
-            </header >
+            </header>
         </>
     );
 
