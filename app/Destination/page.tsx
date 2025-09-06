@@ -4,8 +4,7 @@ import Moon from "./Moon/page";
 function DestinationPage(){
     return(
         <>
-         
-           
+            <Moon/>
         </>
     );
 }
