@@ -23,3 +23,43 @@
     color: white;
     margin:0px 3px ;
 }
+
+.pageMainContentArea{
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+}
+
+.mainContentTitle{
+    color: white;
+    font-size: 40px;
+}
+
+.mainContent{
+    color: #D0D6F9;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.infoArea{
+    display: flex;
+    margin-top: 10px;
+}
+
+.timeInfoArea{
+    display: flex;
+    flex-grow:1;
+    justify-content: end;
+}
+
+.avgDistance,
+.estTime{
+    color:#D0D6F9;
+}
+
+.distance,
+.time{
+    color: white;
+    font-size:20px ;
+}
