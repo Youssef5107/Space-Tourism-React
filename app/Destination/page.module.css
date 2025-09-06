@@ -1,0 +1,25 @@
+.main{
+    padding: 30px;
+}
+
+.pageTitle{
+    color: white;
+}
+
+
+.pageMainArea{
+    display: flex;
+    margin-top: 50px;
+}
+
+.nav{
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+.Link{
+    color: white;
+    margin:0px 3px ;
+}

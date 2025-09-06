@@ -1,10 +1,10 @@
 import styles from "./page.module.css"
-import Header from "../components/Header";
+import Moon from "./Moon/page";
 
 function DestinationPage(){
     return(
         <>
-          
+         
            
         </>
     );
