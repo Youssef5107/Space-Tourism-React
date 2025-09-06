@@ -7,7 +7,7 @@ function Header() {
         <>
             <header className={styles.headerArea}>  
                 <div>
-                    <img src="assets/shared/logo.svg" alt="Page logo" />
+                    <img src="/assets/shared/logo.svg" alt="Page logo" />
                 </div>
                 <div className={styles.headerOptionBtnsArea}>
                     <Link href={"./"} className={styles.headerOptionBtn}><span className={styles.optionNumber}>00</span>HOME</Link>
