@@ -1,7 +1,13 @@
+@font-face {
+    font-family: "Barlow";
+    src: url("/assets/fonts/Barlow/Barlow-Regular.ttf");
+}
+
+
 .headerArea {
     display: flex;
     align-items: center;
-    padding: 60px 60px 30px;
+    padding: 60px 60px 15px;
 }
 
 
@@ -14,13 +20,15 @@
 }
 
 .headerOptionBtn {
-    color: white;
+    color: #D0D6F9;
     text-decoration: none;
+    font-family: "Barlow";
 }
 
 .optionNumber {
     font-weight: bold;
-    margin: 0px 5px 0px 30px;
+    margin: 0px 8px 0px 35px;
+    color: white;
 }
 
 

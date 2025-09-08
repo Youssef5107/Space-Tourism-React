@@ -29,7 +29,9 @@ function Europa(){
                         curling, hockey,
                         or simple relaxation in your snug wintery cabin.
                     </div>
-                    <hr/>
+
+                    <div className={styles.hr}></div>
+                    
                     <div className={styles.infoArea}>
                         <div className={styles.distanceInfoArea}>
                             <div className={styles.avgDistance}>AVG. DISTANCE</div>

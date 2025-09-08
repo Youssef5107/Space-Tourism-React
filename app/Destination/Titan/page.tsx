@@ -27,7 +27,9 @@ function Titan(){
                         As a bonus,
                         you get striking views of the Rings of Saturn.
                     </div>
-                    <hr/>
+
+                    <div className={styles.hr}></div>
+                    
                     <div className={styles.infoArea}>
                         <div className={styles.distanceInfoArea}>
                             <div className={styles.avgDistance}>AVG. DISTANCE</div>

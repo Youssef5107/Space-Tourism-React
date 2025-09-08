@@ -13,7 +13,7 @@ function Moon(){
     if (pathname.toLowerCase().startsWith("/destination")) document.body.classList.add("destination");
     }, [pathname]);
 
-    
+
     return(
         <>
             <img src="/assets/destination/image-moon.png" alt="" />
@@ -26,7 +26,9 @@ function Moon(){
                         A perfect relaxing trip away to help regain perspective and come back refreshed.
                         While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.
                     </div>
-                    <hr/>
+
+                    <div className={styles.hr}></div>
+                    
                     <div className={styles.infoArea}>
                         <div className={styles.distanceInfoArea}>
                             <div className={styles.avgDistance}>AVG. DISTANCE</div>

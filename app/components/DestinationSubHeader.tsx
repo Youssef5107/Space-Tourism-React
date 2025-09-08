@@ -5,7 +5,7 @@ function DestinationSubHeader(){
     return(
         <>
             <nav className={styles.nav}>
-                <Link className={styles.Link} href="/Destination/Moon">MOON</Link>
+                <Link className={styles.Link} style={{marginLeft:"0px"}} href="/Destination/Moon">MOON</Link>
                 <Link className={styles.Link} href="/Destination/Mars">MARS</Link>
                 <Link className={styles.Link} href="/Destination/Europa">EUROPA</Link>
                 <Link className={styles.Link} href="/Destination/Titan">TITAN</Link>

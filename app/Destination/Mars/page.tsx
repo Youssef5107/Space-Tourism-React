@@ -13,7 +13,7 @@ function Mars(){
     if (pathname.toLowerCase().startsWith("/destination")) document.body.classList.add("destination");
     }, [pathname]);
 
-    
+        
     return(
         <>
             <img src="/assets/destination/image-mars.png" alt="" />
@@ -27,7 +27,9 @@ function Mars(){
                         the tallest planetary mountain in our solar system.
                         It’s two and a half times the size of Everest!
                     </div>
-                    <hr/>
+
+                    <div className={styles.hr}></div>
+                    
                     <div className={styles.infoArea}>
                         <div className={styles.distanceInfoArea}>
                             <div className={styles.avgDistance}>AVG. DISTANCE</div>
