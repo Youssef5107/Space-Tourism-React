@@ -1,12 +1,25 @@
+"use client";
+import DestinationSubHeader from "@/app/components/DestinationSubHeader";
 import styles from "../page.module.css"
+import { usePathname } from "next/navigation";
+import { useEffect } from "react";
 
 
 function Mars(){
+    const pathname = usePathname();
+    
+    useEffect(() => {
+    document.body.className = "";
+    if (pathname.toLowerCase().startsWith("/destination")) document.body.classList.add("destination");
+    }, [pathname]);
+
+    
     return(
         <>
             <img src="/assets/destination/image-mars.png" alt="" />
             <div className={styles.pageMainContentArea}>
                 <div>
+                    <DestinationSubHeader/>
                     <div className={styles.mainContentTitle}>MARS</div>
                     <div className={styles.mainContent}>
                         Don’t forget to pack your hiking boots.

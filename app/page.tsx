@@ -1,8 +1,16 @@
-import Image from "next/image";
+"use client";
+import { usePathname } from "next/navigation";
+import { useEffect } from "react";
 import styles from "./page.module.css";
-import Header from "./components/Header";  
 
 export default function Home() {
+
+   const pathname = usePathname();
+
+    useEffect(() => {
+    document.body.className = "";
+    if (pathname === "/") document.body.classList.remove();
+  }, [pathname]);
   return (   
     <>
       <main>

@@ -28,14 +28,8 @@ export default function DestinationLayout({
     return (
         <main className={styles.main}>
             <div className={styles.pageTitle}><span className={styles.pageNum}>01</span>PICK UP YOUR DESTINATION</div>
-            <nav className={styles.nav}>
-                    <Link className={styles.Link} href="/Destination/Moon">MOON</Link>
-                    <Link className={styles.Link} href="/Destination/Mars">MARS</Link>
-                    <Link className={styles.Link} href="/Destination/Europa">EUROPA</Link>
-                    <Link className={styles.Link} href="/Destination/Titan">TITAN</Link>
-                </nav>
             <div className={styles.pageMainArea}>
-               {children} 
+                {children} 
             </div>
         </main>
     );

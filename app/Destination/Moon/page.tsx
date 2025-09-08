@@ -1,12 +1,25 @@
+"use client";
+import { usePathname } from "next/navigation";
+import { useEffect } from "react";
 import styles from "../page.module.css"
+import DestinationSubHeader from "@/app/components/DestinationSubHeader";
 
 
 function Moon(){
+    const pathname = usePathname();
+
+    useEffect(() => {
+    document.body.className = "";
+    if (pathname.toLowerCase().startsWith("/destination")) document.body.classList.add("destination");
+    }, [pathname]);
+
+    
     return(
         <>
             <img src="/assets/destination/image-moon.png" alt="" />
             <div className={styles.pageMainContentArea}>
                 <div>
+                    <DestinationSubHeader/>
                     <div className={styles.mainContentTitle}>MOON</div>
                     <div className={styles.mainContent}>
                         See our planet as you’ve never seen it before.

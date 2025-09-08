@@ -1,12 +1,25 @@
+"use client";
+import DestinationSubHeader from "@/app/components/DestinationSubHeader";
 import styles from "../page.module.css"
+import { usePathname } from "next/navigation";
+import { useEffect } from "react";
 
 
 function Europa(){
+    const pathname = usePathname();
+
+    useEffect(() => {
+    document.body.className = "";
+    if (pathname.toLowerCase().startsWith("/destination")) document.body.classList.add("destination");
+    }, [pathname]);
+
+      
     return(
         <>
             <img src="/assets/destination/image-europa.png" alt="" />
             <div className={styles.pageMainContentArea}>
                 <div>
+                    <DestinationSubHeader/>
                     <div className={styles.mainContentTitle}>EUROPA</div>
                     <div className={styles.mainContent}>
                         The smallest of the four Galilean moons orbiting Jupiter,

@@ -1,11 +1,20 @@
+@font-face {
+    font-family: "Bellefair";
+    src: url("/assets/fonts/Bellefair/Bellefair-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Barlow";
+    src: url("/assets/fonts/Barlow/Barlow-Regular.ttf");
+}
+
 .main{
-    padding: 30px;
+    padding: 30px 150px;
 }
 
 .pageTitle{
     color: white;
 }
-
 
 .pageMainArea{
     display: flex;
@@ -13,15 +22,14 @@
 }
 
 .nav{
-    display: flex;
-    flex-grow: 1;
-    justify-content: end;
-    margin-right: 50px;
+
 }
 
 .Link{
     color: white;
     margin:0px 3px ;
+    font-family: "Barlow";
+    text-decoration: none;
 }
 
 .pageMainContentArea{
@@ -33,10 +41,12 @@
 .mainContentTitle{
     color: white;
     font-size: 40px;
+    font-family:"Bellefair";
 }
 
 .mainContent{
     color: #D0D6F9;
+    font-family: "Barlow";
     max-width: 400px;
     width: 100%;
     margin-top: 15px;
