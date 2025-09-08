@@ -40,6 +40,10 @@
     color: #D0D6F9;
 }
 
+.activeHr{
+    border-bottom: 2px white solid;
+}
+
 .pageMainContentArea{
     display: flex;
     flex-grow: 1;
